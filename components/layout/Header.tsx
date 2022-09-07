@@ -124,7 +124,7 @@ const Header: FC<IHeaderProps> = ({ }) => {
             }`,
         }}
       >
-        <Container sx={{ px: "24px" }}>
+        <Container>
           <Grid
             container
             justifyContent="space-between"

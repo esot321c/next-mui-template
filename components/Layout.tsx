@@ -4,7 +4,7 @@ import Header from "@components/layout/Header";
 import Footer from "@components/layout/Footer";
 import { calcLength, motion } from "framer-motion";
 import { useRouter } from "next/router";
-import { Grid, Box } from "@mui/material";
+import { Box } from "@mui/material";
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: 500 },
